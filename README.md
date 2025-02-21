@@ -1,0 +1,3 @@
+# useParams Hook Issue in Nested React Router v6 Routes
+
+This repository demonstrates a common issue encountered when using the `useParams` hook in nested routes within React Router v6.  The problem occurs when the nested route doesn't receive the expected parameters, resulting in an empty object being returned by `useParams`. This example shows the problematic code and a solution to fix it.  The solution involves restructuring the routes to ensure proper context propagation and route matching.  See the `NestedRoutesBug.js` file for the buggy code and `NestedRoutesSolution.js` for the corrected implementation.
